@@ -1,0 +1,3 @@
+#define IMGMODE_BGR 0
+#define IMGMODE_HSV 1
+#define IMGMODE_FILTERED 2
