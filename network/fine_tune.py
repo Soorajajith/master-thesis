@@ -6,12 +6,8 @@ from keras.preprocessing.image import ImageDataGenerator
 from keras import optimizers
 from keras.models import Sequential, Model
 from keras.layers import Dropout, Flatten, Dense
-from keras.callbacks import LearningRateScheduler, Callback
-from keras.preprocessing import image
-import numpy as np
 import math
 import matplotlib.pyplot as plt
-import keras.backend as k
 
 # path to the model weights files.
 top_model_weights_path = 'top_model_weights.h5'
