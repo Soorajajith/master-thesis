@@ -199,11 +199,11 @@ int main(void){
 					if (GetKeyState('S') < 0) { //Save images when 'S' key is held down
 						//Save every 2nd image, unnecessary to save every image
 						if (counter % 2 == 0) {
-							sprintf_s(filename, "../Robotbil/images/%u.png", imageNr);
+							sprintf_s(filename, "../Robotic_car/images/%u.png", imageNr);
 							cvSaveImage(filename, img);
 							
 							//Save the instruction byte corresponding to the image saved
-							instructionBytes.open("../Robotbil/images/instruction-bytes.txt", std::ios_base::app);
+							instructionBytes.open("../Robotic_car/images/instruction_bytes.txt", std::ios_base::app);
 							if (instructionBytes) {
 								instructionBytes << filename << " " << getInstructionByte() << '\n';
 							}
