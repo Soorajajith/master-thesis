@@ -1,4 +1,4 @@
-This folder contains everything that has to do with the network.
+This folder contains everything that has to do with the network and some other utility programs.
 
 The client software that is used to control the robot can start a program called prediction.exe.
 The program PyInstaller is used to make prediction.py an executable.

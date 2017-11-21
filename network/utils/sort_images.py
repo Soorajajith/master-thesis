@@ -26,7 +26,7 @@ with open('') as f:
             shutil.move(src, dest2)
         elif '00100010 01111111 00000000' in inst:
             shutil.move(src, dest3)
-		elif '00100010 01111111 01100000' in inst:
-			shutil.move(src, dest4)
-		elif '00100010 01111111 10100000' in inst:
-			shutil.move(src, dest5)
+        elif '00100010 01111111 01100000' in inst:
+            shutil.move(src, dest4)
+        elif '00100010 01111111 10100000' in inst:
+            shutil.move(src, dest5)
