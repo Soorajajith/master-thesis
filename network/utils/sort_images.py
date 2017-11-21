@@ -3,6 +3,7 @@
 
 import shutil
 
+# One folder for each movement instruction
 dest1 = 'data/001000100000000001111111/'
 dest2 = 'data/001000100000000010000000/'
 dest3 = 'data/001000100111111100000000/'
