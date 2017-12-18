@@ -9,4 +9,4 @@ To generate the executable the following must be passed to PyInstaller:
 	
 	pyinstaller --add-data model.h5;. --hidden-import=h5py --hidden-import=h5py.defs --hidden-import=h5py.utils --hidden-import=h5py.h5ac --hidden-import=h5py._proxy prediction.py
 	
-Be aware of the included network model. Either rename the saved model, or modifie fine_tune.py.
+Be aware of the included network model. Either rename the saved model, or modify fine_tune.py.
