@@ -1,6 +1,6 @@
 This is the folder where the images saved in the client ends up.
 
-The images saved must be moved to the right folder in the data folder, which lie in root/networks/data.
+The images must be moved to the right folder in the data folder, which lie in root/networks/data.
 
 
 The instruction-bytes file contains the instruction that correspond to each respective image.
